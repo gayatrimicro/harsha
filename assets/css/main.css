@@ -2430,7 +2430,55 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 }
 
 
+.choco-lava-cake{
+  background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake {
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-750.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake {
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake{
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-1200.jpg);
+    max-width: 100%;
 
+  }
+}
+
+
+
+.maida-free-millet-waffles{
+  background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles {
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-750.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles {
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles{
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-1200.jpg);
+    max-width: 100%;
+
+  }
+}
 .ice-cream-great{
   background-image: url(https://harshaenterprises.co/assets/images/ice-cream-great-375.jpg);
 }
