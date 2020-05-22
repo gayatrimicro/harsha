@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @font-face{font-family:'ico';
-src:url("http://cdn.harshaenterprises.co/fonts/icoquay254d.eot");
-src:url("http://cdn.harshaenterprises.co/fonts/icoquay254d.eot") format("embedded-opentype"),
-url("http://cdn.harshaenterprises.co/fonts/icoquayd41d.eot") format("eot"),
-url("http://cdn.harshaenterprises.co/fonts/icoquay254d.woff") format("woff"),
-url("http://cdn.harshaenterprises.co/fonts/icoquay254d.ttf") format("truetype"),
-url("http://cdn.harshaenterprises.co/fonts/icoquay254d.svg") format("svg");}
+src:url("https://harshaenterprises.co/assets/fonts/icoquay254d.eot");
+src:url("https://harshaenterprises.co/assets/fonts/icoquay254d.eot") format("embedded-opentype"),
+url("https://harshaenterprises.co/assets/fonts/icoquayd41d.eot") format("eot"),
+url("https://harshaenterprises.co/assets/fonts/icoquay254d.woff") format("woff"),
+url("https://harshaenterprises.co/assets/fonts/icoquay254d.ttf") format("truetype"),
+url("https://harshaenterprises.co/assets/fonts/icoquay254d.svg") format("svg");}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -776,8 +776,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: "icoquay";
-  src: url("http://cdn.harshaenterprises.co/fonts/icoquay.eot");
-  src: url("http://cdn.harshaenterprises.co/fonts/icoquay.eot") format("embedded-opentype"), url("../assets/fonts/icoquay.woff?-vr4rvr") format("woff"), url("../fonts/icoquay.ttf?-vr4rvr") format("truetype"), url("../assets/fonts/icoquay.svg?-vr4rvr#icoquay") format("svg");
+  src: url("https://harshaenterprises.co/assets/fonts/icoquay.eot");
+  src: url("https://harshaenterprises.co/assets/fonts/icoquay.eot") format("embedded-opentype"), url("../assets/fonts/icoquay.woff?-vr4rvr") format("woff"), url("../fonts/icoquay.ttf?-vr4rvr") format("truetype"), url("../assets/fonts/icoquay.svg?-vr4rvr#icoquay") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1180,9 +1180,10 @@ body, .footer-nav, .legal {
   /* line 43, ../../app/styles/components/_panels.sass */
   .panel.square {
     max-width:  38.46154%;
-    height: 400px;
+    height: 480px;
+    margin-bottom: 50px;
   }
-  
+
   /* line 46, ../../app/styles/components/_panels.sass */
   .panel.large {
     margin-top: 80px;
@@ -1978,6 +1979,11 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
   background-color: #00a388;
 }
 
+.collapse-panel .bg6 {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #beeb9f;
+}
 
 
 /* line 6, ../../app/styles/components/_collapse.sass */
@@ -2157,211 +2163,242 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .map {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-map-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-map-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .map {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-map-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-map-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .map {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-map-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-map-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .map {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-map-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-map-1600.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-autumn {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-spring {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-summer {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-winter {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .dish-beef {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beef-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beef-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beef {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beef-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beef-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beef {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beef-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beef-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beef {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beef-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beef-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .dish-beetroot {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beetroot-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beetroot-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beetroot {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beetroot-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beetroot-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beetroot {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beetroot-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beetroot-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-beetroot {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-beetroot-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-beetroot-1200.jpg);
   }
 }
 
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .dish-chocethereal {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-chocethereal-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-dish-chocethereal-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
-  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  /* line 16, dish-chocethereal../../app/styles/components/_backgrounds.sass */
   .dish-chocethereal {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-chocethereal-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-chocethereal-750.jpg);
   }
 }
+
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-chocethereal {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-chocethereal-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-chocethereal-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-chocethereal {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-chocethereal-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-chocethereal-1200.jpg);
     max-width: 100%;
 
   }
 }
 
-/*blog img*/
-.health-benefits{
-  background-image: url(http://cdn.harshaenterprises.co/images/health-benefits-of-ice-cream-375.jpg);
+
+.safety-image {
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-1600.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
-  /* line 16, http://cdn.harshaenterprises.co/../app/styles/components/_backgrounds.sass */
+  /* line 16, dish-chocethereal../../app/styles/components/_backgrounds.sass */
+  .safety-image {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-375.jpg);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .safety-image {
+   background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-750.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .safety-image {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-1000.jpg);
+    max-width: 100%;
+
+  }
+}
+
+
+
+
+
+/*blog img*/
+.health-benefits{
+  background-image: url(https://harshaenterprises.co/assets/images/health-benefits-of-ice-cream-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+  /* line 16, https://harshaenterprises.co/assets/../app/styles/components/_backgrounds.sass */
   .health-benefits {
-    background-image: url(http://cdn.harshaenterprises.co/images/health-benefits-of-ice-cream-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/health-benefits-of-ice-cream-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .health-benefits {
-    background-image: url(http://cdn.harshaenterprises.co/images/health-benefits-of-ice-cream-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/health-benefits-of-ice-cream-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .health-benefits {
-    background-image: url(http://cdn.harshaenterprises.co/images/health-benefits-of-ice-cream-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/health-benefits-of-ice-cream-1200.jpg);
     max-width: 100%;
 
   }
@@ -2369,24 +2406,49 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 
 
 .healthy-delicious{
-  background-image: url(http://cdn.harshaenterprises.co/images/healthy-delicious-waffles-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/healthy-delicious-waffles-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .healthy-delicious {
-    background-image: url(http://cdn.harshaenterprises.co/images/healthy-delicious-waffles-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/healthy-delicious-waffles-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .healthy-delicious {
-    background-image: url(http://cdn.harshaenterprises.co/images/healthy-delicious-waffles-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/healthy-delicious-waffles-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .healthy-delicious{
-    background-image: url(http://cdn.harshaenterprises.co/images/healthy-delicious-waffles-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/healthy-delicious-waffles-1200.jpg);
+    max-width: 100%;
+
+  }
+}
+
+
+.choco-lava-cake{
+  background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake {
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-750.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake {
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .choco-lava-cake{
+    background-image: url(https://harshaenterprises.co/assets/images/eggless-choco-lava-cake-1200.jpg);
     max-width: 100%;
 
   }
@@ -2394,45 +2456,98 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 
 
 
+.maida-free-millet-waffles{
+  background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles {
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-750.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles {
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /* line 16, ../../app/styles/components/_backgrounds.sass */
+  .maida-free-millet-waffles{
+    background-image: url(https://harshaenterprises.co/assets/images/maida-free-millet-waffles-1200.jpg);
+    max-width: 100%;
+
+  }
+}
 .ice-cream-great{
-  background-image: url(http://cdn.harshaenterprises.co/images/ice-cream-great-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/ice-cream-great-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .ice-cream-great {
-    background-image: url(http://cdn.harshaenterprises.co/images/ice-cream-great-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/ice-cream-great-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .ice-cream-great {
-    background-image: url(http://cdn.harshaenterprises.co/images/ice-cream-great-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/ice-cream-great-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .ice-cream-great{
-    background-image: url(http://cdn.harshaenterprises.co/images/ice-cream-great-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/ice-cream-great-1200.jpg);
     max-width: 100%;
 
   }
 }
+
+
+
+.red-velvet{
+  background-image: url(https://harshaenterprises.co/assets/images/red-velvet-1000.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+
+
+  .red-velvet {
+    background-image: url(https://harshaenterprises.co/assets/images/red-velvet-1000.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+
+  .red-velvet {
+    background-image: url(https://harshaenterprises.co/assets/images/red-velvet-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  
+  .red-velvet{
+    background-image: url(https://harshaenterprises.co/assets/images/red-velvet-1200.jpg);
+    max-width: 100%;
+
+  }
+}
+
+
+
 /*blog img end*/
 
 
 
 .dish-duck {
-  background-image: url(http://cdn.harshaenterprises.co/images/01.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/01.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
  
   .dish-duck {
-    background-image: url(http://cdn.harshaenterprises.co/images/02.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/02.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   .dish-duck {
-    background-image: url(http://cdn.harshaenterprises.co/images/03.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/03.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -2444,660 +2559,684 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 */
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .dish-muscovado {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-muscovado-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-dish-muscovado-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-muscovado {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-muscovado-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-muscovado-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-muscovado {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-muscovado-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-muscovado-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-muscovado {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-muscovado-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-muscovado-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .dish-pigjowl {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-pigjowl-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-dish-pigjowl-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-pigjowl {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-pigjowl-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-pigjowl-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-pigjowl {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-pigjowl-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-pigjowl-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .dish-pigjowl {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-dish-pigjowl-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-dish-pigjowl-1200.jpg);
   }
 }
 
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-autumn {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-autumn {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-autumn-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-autumn-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-spring {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-spring {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-spring-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-spring-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-summer {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-summer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-summer-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-summer-1200.jpg);
   }
 }
 
 /* line 16, ../../app/styles/components/_backgrounds.sass */
 .illustration-winter {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 16, ../../app/styles/components/_backgrounds.sass */
   .illustration-winter {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-illustration-winter-1200.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-illustration-winter-1200.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-about {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-about-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-about-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-about {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-about-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-about-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-about {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-about-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-about-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-about {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-about-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-about-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-awards {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-awards-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-awards-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-awards {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-awards-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-awards-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-awards {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-awards-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-awards-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-awards {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-awards-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-awards-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-contact {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-contact-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-contact-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-contact {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-contact-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-contact-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-contact {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-contact-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-contact-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-contact {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-contact-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-contact-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-employment {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-employment-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-employment-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-employment {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-employment-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-employment-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-employment {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-employment-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-employment-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-employment {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-employment-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-employment-1600.jpg);
   }
 }
 
-/* line 6, ../../app/styles/components/_backgrounds.sass */
+/* commented by Priya for testing */
+/*.image-footer {
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-footer-375.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
+ .image-footer {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-footer-750.jpg);
+  }
+}
+@media only screen and (min-width: 750px) {
+
+  .image-footer {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-footer-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .image-footer {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-footer-1600.jpg);
+  }
+}
+*/
+
+
+
+
+
 .image-footer {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-footer-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-footer-office375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
-  /* line 6, ../../app/styles/components/_backgrounds.sass */
-  .image-footer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-footer-750.jpg);
+ .image-footer {
+    background-image: url(https://harshaenterprises.co/assets/images/bg-footer-office750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
-  /* line 6, ../../app/styles/components/_backgrounds.sass */
+
   .image-footer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-footer-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-footer-office1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
-  /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-footer {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-footer-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-footer-office1600.jpg);
   }
 }
 
-/* line 6, ../../app/styles/components/_backgrounds.sass */
+
+/* line 6, ../../app/styles/components/_backgrounds.sass 
 .image-functions-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-01-375.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-01-375.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-01 {
-    background-image:url(http://cdn.harshaenterprises.co/images/bg-image-functions-01-1600.jpg);
+    background-image:url(https://harshaenterprises.co/assets/images/bg-image-functions-01-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-functions-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-functions-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-functions-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-functions-02-1600.jpg);
   }
 }
 
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-philosophy-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-01-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-philosophy-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-02-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-philosophy-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-03-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-03-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-03-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-03-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-03-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-03-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-philosophy-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-philosophy-03-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-philosophy-03-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-nuts-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-01-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-nuts-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-nuts-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-nuts-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-nuts-02-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-parlour-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-01-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-parlour-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-02-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-parlour-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-03-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-03-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-03-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-03-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-03-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-03-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-parlour-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-parlour-03-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-parlour-03-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-premixes-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-01-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-premixes-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-02-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-premixes-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-03-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-03-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-03-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-03-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-03-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-03-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-premixes-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-premixes-03-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-premixes-03-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-blends-00 {
-  background-image:url(http://cdn.harshaenterprises.co/images/bg-image-blends-00-375.jpg);
+  background-image:url(https://harshaenterprises.co/assets/images/bg-image-blends-00-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-00 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-00-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-00-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-00 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-00-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-00-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-00 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-00-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-00-1600.jpg);
   }
 }
 
 
 
 .image-blends-01 {
-  background-image:url(http://cdn.harshaenterprises.co/images/bg-image-blends-01-375.jpg);
+  background-image:url(https://harshaenterprises.co/assets/images/bg-image-blends-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-01-1600.jpg);
   }
 }
 .image-blends-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-02-1600.jpg);
   }
 }
 .image-blends-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-03-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-03-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-03-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-03-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-03-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-03-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-blends-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-blends-03-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-blends-03-1600.jpg);
   }
 }
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-producers-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-01-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-01-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-01-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-01-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-01-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-01-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-01 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-01-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-01-1600.jpg);
   }
 }
 
@@ -3105,70 +3244,70 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-producers-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-02-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-02-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-02-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-02-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-02-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-02-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-02 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-02-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-02-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-producers-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-03-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-03-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-03-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-03-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-03-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-03-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-03 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-03-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-03-1600.jpg);
   }
 }
 
 /* line 6, ../../app/styles/components/_backgrounds.sass */
 .image-producers-04 {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-04-375.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-04-375.jpg);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx), (min-width: 350px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-04 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-04-750.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-04-750.jpg);
   }
 }
 @media only screen and (min-width: 750px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-04 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-04-1000.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-04-1000.jpg);
   }
 }
 @media only screen and (min-width: 1000px) {
   /* line 6, ../../app/styles/components/_backgrounds.sass */
   .image-producers-04 {
-    background-image: url(http://cdn.harshaenterprises.co/images/bg-image-producers-04-1600.jpg);
+    background-image: url(https://harshaenterprises.co/assets/images/bg-image-producers-04-1600.jpg);
   }
 }
 
@@ -3222,7 +3361,7 @@ input[type="checkbox"]:checked + label span:before, input[type="radio"]:checked 
 
 /* line 102, ../../app/styles/components/_backgrounds.sass */
 html:not(.touch) .map.hideMobilebg {
-  background-image: url(http://cdn.harshaenterprises.co/images/bg-map-1600.jpg) !important;
+  background-image: url(https://harshaenterprises.co/assets/images/bg-map-1600.jpg) !important;
 }
 
 /* line 104, ../../app/styles/components/_backgrounds.sass */
@@ -3234,17 +3373,17 @@ html:not(.touch) .map.hideMobilebg {
 
 /* line 110, ../../app/styles/components/_backgrounds.sass */
 .pattern-floury {
-  background-image: url(http://cdn.harshaenterprises.co/images/menu.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/menu.jpg);
 }
 
 /* line 114, ../../app/styles/components/_backgrounds.sass */
 .place-table {
-  background-image: url(http://cdn.harshaenterprises.co/images/places/table.html);
+  background-image: url(https://harshaenterprises.co/assets/images/places/table.html);
 }
 
 /* line 116, ../../app/styles/components/_backgrounds.sass */
 .ingredients-oyster {
-  background-image: url(http://cdn.harshaenterprises.co/images/ingredients/oyster.html);
+  background-image: url(https://harshaenterprises.co/assets/images/ingredients/oyster.html);
 }
 
 /* line 118, ../../app/styles/components/_backgrounds.sass */
@@ -3612,7 +3751,7 @@ th {
 /* line 16, ../../app/styles/partials/_top.sass */
   .top .main-logo .icon-logo {
 /*  font-size: 70px;*/
-  background-image:url(http://cdn.harshaenterprises.co/images/logo3.png);
+  background-image:url(https://harshaenterprises.co/assets/images/logo3.png);
 	background-repeat:no-repeat;
 	margin-left:20px;
 	height:155px;
@@ -3623,7 +3762,7 @@ th {
     .top .main-logo .icon-logo {
 /*    padding-top: 80px;*/
 /*    font-size: 140px;*/
-	  background-image:url(http://cdn.harshaenterprises.co/images/logo3.png);
+	  background-image:url(https://harshaenterprises.co/assets/images/logo3.png);
 	background-repeat:no-repeat;
 	margin-left:20px;
 	height:155px;
@@ -3635,7 +3774,7 @@ th {
     .top .main-logo .icon-logo {
 /*    padding-top: 80px;*/
 /*    font-size: 140px;*/
-    background-image:url(http://cdn.harshaenterprises.co/images/logo3.png);
+    background-image:url(https://harshaenterprises.co/assets/images/logo3.png);
   background-repeat:no-repeat;
   margin-left:20px;
   height:155px;
@@ -3647,7 +3786,7 @@ th {
     .top .main-logo .icon-logo {
 /*    padding-top: 80px;*/
 /*    font-size: 140px;*/
-    background-image:url(http://cdn.harshaenterprises.co/images/logo3.png);
+    background-image:url(https://harshaenterprises.co/assets/images/logo3.png);
   background-repeat:no-repeat;
   margin-left:20px;
   height:155px;
@@ -3658,7 +3797,7 @@ th {
   /* line 16, ../../app/styles/partials/_top.sass */
  .top .main-logo .icon-logo {
     /*font-size: 180px;*/
-	background-image:url(http://cdn.harshaenterprises.co/images/logo2.png);
+	background-image:url(https://harshaenterprises.co/assets/images/logo2.png);
 	background-repeat:no-repeat;
 	margin-left:20px;
 	height:155px;
@@ -3675,7 +3814,7 @@ th {
   /* line 16, ../../app/styles/partials/_top.sass */
  .top .main-logo .icon-logo {
     /*font-size: 130px;*/
-	background-image:url(http://cdn.harshaenterprises.co/images/logo.png);
+	background-image:url(https://harshaenterprises.co/assets/images/logo.png);
 	background-repeat:no-repeat;
 	margin-left:20px;
 	height:155px;
@@ -3687,7 +3826,7 @@ th {
   /* line 16, ../../app/styles/partials/_top.sass */
    .top .main-logo .icon-logo {
     /* font-size: 130px; */
-    background-image: url(http://cdn.harshaenterprises.co/images/logo.png);
+    background-image: url(https://harshaenterprises.co/assets/images/logo.png);
     background-repeat: no-repeat;
     margin-left: 20px;
     height: 155px;
@@ -4015,6 +4154,15 @@ th {
     background-size: cover;
   }
 }
+
+
+
+@media only screen and (min-width: 1000px) {
+  .bg div {
+   
+  }
+}
+
 /* line 44, ../../app/styles/partials/_carousel.sass */
 .carousel-controler,
 .carousel-labels {
@@ -4184,7 +4332,7 @@ th {
 }
 /* line 1, ../../app/styles/partials/_meet-the-team.sass */
 .team {
-  background-image: url(http://cdn.harshaenterprises.co/images/team.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/team.jpg);
   height: 320px;
 }
 /* line 4, ../../app/styles/partials/_meet-the-team.sass */
@@ -4202,7 +4350,7 @@ th {
 }
 /* line 1, ../../app/styles/partials/_employment.sass */
 .employment-panel {
-  background-image: url(http://cdn.harshaenterprises.co/images/employment.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/employment.jpg);
   height: 320px;
 }
 /* line 4, ../../app/styles/partials/_employment.sass */
@@ -4220,7 +4368,7 @@ th {
 }
 /* line 1, ../../app/styles/partials/_competition.sass */
 .competiton-promo.full {
-  background: url(http://cdn.harshaenterprises.co/images/bg-promo.jpg) no-repeat center #fff;
+  background: url(https://harshaenterprises.co/assets/images/bg-promo.jpg) no-repeat center #fff;
   background-size: cover;
   min-height: 440px;
 }
@@ -4257,7 +4405,7 @@ th {
 }
 /* line 20, ../../app/styles/partials/_competition.sass */
 .competiton-promo.full .app-link {
-  background-image: url(http://cdn.harshaenterprises.co/images/app-official-tile.png);
+  background-image: url(https://harshaenterprises.co/assets/images/app-official-tile.png);
   background-size: 100%;
   background-repeat: no-repeat;
   display: block;
@@ -4537,7 +4685,7 @@ th {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url(http://cdn.harshaenterprises.co/images/cone.jpg) no-repeat center bottom #fff;
+  background: url(https://harshaenterprises.co/assets/images/cone.jpg) no-repeat center bottom #fff;
   background-size: 360px;
 }
 /* line 15, ../../app/styles/pages/_index.sass */
@@ -4551,7 +4699,7 @@ th {
 }
 /* line 20, ../../app/styles/pages/_index.sass */
 .page-index .app-promo {
-  background: url(http://cdn.harshaenterprises.co/images/bg-promo.jpg) no-repeat center #fff;
+  background: url(https://harshaenterprises.co/assets/images/bg-promo.jpg) no-repeat center #fff;
   background-size: cover;
   min-height: 440px;
 }
@@ -4586,7 +4734,7 @@ th {
 }
 /* line 38, ../../app/styles/pages/_index.sass */
 .page-index .app-promo .app-link {
-  background-image: url(http://cdn.harshaenterprises.co/images/app-official-tile.png);
+  background-image: url(https://harshaenterprises.co/assets/images/app-official-tile.png);
   background-size: 100%;
   background-repeat: no-repeat;
   display: block;
@@ -4674,9 +4822,18 @@ th {
     margin-top: -165px;
   }
   /* line 98, ../../app/styles/pages/_index.sass */
-  .page-index .pattern-floury {
+ 
+   .page-index .pattern-floury {
     min-height: 960px;
   }
+
+.page-contact .pattern-floury1 {
+  
+    min-height: 900px;
+  }
+
+
+
   /* line 100, ../../app/styles/pages/_index.sass */
   .page-index .enquiries {
     margin-right: 80px;
@@ -4691,13 +4848,37 @@ th {
   /* line 106, ../../app/styles/pages/_index.sass */
   .page-index .opera-tables {
     display: block;
-    background: url(http://cdn.harshaenterprises.co/images/opera-tables.jpg);
+    background: url(https://harshaenterprises.co/assets/images/opera-tables-fssc.jpg);
     background-size: cover;
     margin-top: 320px;
     margin-top: 20rem;
   }
 
-  
+ .page-index .opera-tables1 {
+    display: block;
+    background: url(https://harshaenterprises.co/assets/images/greenroom-05.jpg);
+    background-size: cover;
+    margin-top: 320px;
+    margin-top: 20rem;
+  }
+
+  .page-index .opera-tables2 {
+    display: block;
+    background: url(https://harshaenterprises.co/assets/images/chocolava.jpg);
+    background-size: cover;
+    margin-top: 320px;
+    margin-top: 20rem;
+    left: -16px;
+  }
+
+  .page-index .opera-tables3 {
+    display: block;
+    background: url(https://harshaenterprises.co/assets/images/yogurt.jpg);
+    background-size: cover;
+    margin-top: 320px;
+    margin-top: 20rem;
+    right:-16px;
+  }
 
 }
 @media only screen and (min-width: 1025px) {
@@ -4976,7 +5157,7 @@ th {
 
 /* line 2, ../../app/styles/pages/_about.sass */
 .page-about .awards-panel {
-  background: url(http://cdn.harshaenterprises.co/images/panel-awards.jpg) no-repeat #fff;
+  background: url(https://harshaenterprises.co/assets/images/panel-awards.jpg) no-repeat #fff;
   background-size: cover;
   background-position: center;
 }
@@ -5002,7 +5183,7 @@ th {
 }
 /* line 17, ../../app/styles/pages/_about.sass */
 .page-about .book- {
-  background-image: url(http://cdn.harshaenterprises.co/images/.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/.jpg);
   background-size: 100%;
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
@@ -5016,7 +5197,7 @@ th {
 }
 /* line 26, ../../app/styles/pages/_about.sass */
 .page-about .app-promo {
-  background-image: url(http://cdn.harshaenterprises.co/images/peter-gilmore-app.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/peter-gilmore-app.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 300px;
@@ -5028,7 +5209,7 @@ th {
 }
 /* line 34, ../../app/styles/pages/_about.sass */
 .page-about .app-link {
-  background-image: url(http://cdn.harshaenterprises.co/images/app-official-tile.png);
+  background-image: url(https://harshaenterprises.co/assets/images/app-official-tile.png);
   background-size: 100%;
   background-repeat: no-repeat;
   display: block;
@@ -5281,160 +5462,181 @@ th {
 }
 /* line 16, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy #video-philosophy {
-  background-image: url(http://cdn.harshaenterprises.co/images/philosophy.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/philosophy.jpg);
 }
 /* line 18, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy .video1-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-texture.jpg);
 }
 .page-philosophy .video2-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video2-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video2-philosophy-texture.jpg);
 }
 .page-philosophy .video3-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video3-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video3-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video11-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video11-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video11-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video12-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video12-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video12-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video13-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video13-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video13-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video14-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video14-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video14-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video8-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video8-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video8-philosophy-intensity.jpg);
 }
 
 
 .page-philosophy .video9-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video9-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video9-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video10-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video10-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video10-philosophy-intensity.jpg);
 }
 
 
 .page-philosophy .video4-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video4-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video4-philosophy-texture.jpg);
 }
 
 .page-philosophy .video5-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video5-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video5-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video6-philosophy-intensity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video6-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video6-philosophy-intensity.jpg);
 }
 
 
 
 /* line 20, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy .video-philosophy-intro {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-intro.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-intro.jpg);
 }
 /* line 22, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy .video1-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video7-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video7-philosophy-nature.jpg);
 }
 
 .page-philosophy .video2-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video7-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video7-philosophy-nature.jpg);
 }
 
 .page-philosophy .video3-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video3-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video3-philosophy-nature.jpg);
 }
 
 .page-philosophy .video4-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video5-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video5-philosophy-nature.jpg);
 }
 
 .page-philosophy .video5-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video6-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video6-philosophy-texture.jpg);
 }
 
 .page-philosophy .video6-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video5-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video5-philosophy-texture.jpg);
 }
 
 .page-philosophy .video7-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/video6-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video6-philosophy-nature.jpg);
 }
 
 .page-philosophy .vid8-philosophy-nature {
-  background-image: url(http://cdn.harshaenterprises.co/images/vid8-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/vid8-philosophy-nature.jpg);
 }
 
 
 /* line 24, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy .video1-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video2-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video2-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video2-philosophy-purity.jpg);
 }
 
 .page-philosophy .video3-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video3-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video3-philosophy-purity.jpg);
 }
 
 .page-philosophy .video4-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video4-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video4-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video5-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video5-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video5-philosophy-purity.jpg);
 }
 
 .page-philosophy .video6-philosophy-purity {
-  background-image: url(http://cdn.harshaenterprises.co/images/video6-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video6-philosophy-purity.jpg);
 }
 
 
 .page-philosophy .video-philosophy-purity2 {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-purity.jpg);
 }
 .page-philosophy .video-philosophy-purity3 {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-purity.jpg);
 }
 /* line 26, ../../app/styles/pages/_philosophy.sass */
 .page-philosophy .video1-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-nature.jpg);
 }
 
 .page-philosophy .video2-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video2-philosophy-intensity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video2-philosophy-intensity.jpg);
 }
 
 .page-philosophy .video3-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video3-philosophy-texture.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video3-philosophy-texture.jpg);
 }
 
 .page-philosophy .video4-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video4-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video4-philosophy-purity.jpg);
 }
 
 .page-philosophy .video5-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video-philosophy-purity.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video-philosophy-purity.jpg);
 }
 
 .page-philosophy .video6-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video4-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video4-philosophy-nature.jpg);
 }
 
 .page-philosophy .video7-philosophy-texture {
-  background-image: url(http://cdn.harshaenterprises.co/images/video2-philosophy-nature.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/video2-philosophy-nature.jpg);
+}
+
+
+.page-philosophy .video8-philosophy-texture {
+  background-image: url(https://harshaenterprises.co/assets/images/millet_belgian.jpg);
+}
+
+.page-philosophy .video9-philosophy-texture {
+  background-image: url(https://harshaenterprises.co/assets/images/millet_brownie.jpg);
+}
+
+.page-philosophy .video10-philosophy-texture {
+  background-image: url(https://harshaenterprises.co/assets/images/millet_crepe.jpg);
+}
+
+.page-philosophy .video11-philosophy-texture {
+  background-image: url(https://harshaenterprises.co/assets/images/millet_paancake.jpg);
+}
+
+
+
 }
 @media only screen and (min-width: 769px) {
   /* line 29, ../../app/styles/pages/_philosophy.sass */
@@ -5564,9 +5766,22 @@ th {
 }
 /* line 10, ../../app/styles/pages/_functions.sass */
 .page-functions .content-carousel {
-  position: relative;
+  /*position: relative;
   height: 100%;
-  background-position: center;
+  background-position: center;*/
+    background-repeat: no-repeat;
+    position: relative;
+    height: 125%;
+    background-position: center;
+}
+
+@media (max-width: 600px){
+  .page-functions .content-carousel {
+    
+    position: relative;
+    height: 120%;
+    background-position: center;
+  }
 }
 /* line 15, ../../app/styles/pages/_functions.sass */
 .page-functions .carousel-controler {
@@ -5578,49 +5793,59 @@ th {
 .page-functions .small-carousel-container {
   background-color: #fff;
 }
-/* line 22, ../../app/styles/pages/_functions.sass */
-.page-functions .greenroom-00 {
-  background-image: url(http://cdn.harshaenterprises.co/images/nuts-00.jpg);
-}
+
+/*.page-functions .greenroom-00 {
+  background-image: url(https://harshaenterprises.co/assets/images/nuts-00.jpg);
+}*/
+
+/*.page-functions .greenroom-00 {
+  background-image: url(https://harshaenterprises.co/assets/images/millet.jpg);
+}*/
 
 .page-functions .greenroom-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/nuts-01.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/nuts-01.jpg);
 }
 /* line 24, ../../app/styles/pages/_functions.sass */
 .page-functions .greenroom-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/greenroom-02.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/greenroom-02.jpg);
 }
 /* line 26, ../../app/styles/pages/_functions.sass */
 .page-functions .greenroom-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/greenroom-03.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/greenroom-03.jpg);
 }
 /* line 28, ../../app/styles/pages/_functions.sass */
 .page-functions .greenroom-04 {
-  background-image: url(http://cdn.harshaenterprises.co/images/greenroom-04.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/greenroom-04.jpg);
 }
+
+
+.page-functions .greenroom-05 {
+  background-image: url(https://harshaenterprises.co/assets/images/greenroom-05.jpg);
+}
+
+
+
+
 /* line 31, ../../app/styles/pages/_functions.sass */
 
 
-/*
-.page-functions .uppertower-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/uppertower-01.jpg);
+.page-functions .test {
+  background-image: url(https://harshaenterprises.co/assets/images/premixes.jpg);
 }
 
+/*
 .page-functions .restaurant-01 {
-  background-image: url(http://cdn.harshaenterprises.co/images/uppertower-01.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/premixes.jpg);
 }
 
 .page-functions .restaurant-02 {
-  background-image: url(http://cdn.harshaenterprises.co/images/uppertower-01.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/premixes.jpg);
 }
 
 .page-functions .restaurant-03 {
-  background-image: url(http://cdn.harshaenterprises.co/images/uppertower-01.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/premixes.jpg);
 }
-
 */
-
-
 
 /* line 45, ../../app/styles/pages/_functions.sass */
 .page-functions .bg {
@@ -5813,7 +6038,7 @@ th {
 }
 /* line 16, ../../app/styles/pages/_contact.sass */
 .page-contact .functions {
-  background-image: url(http://cdn.harshaenterprises.co/images/serpent.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/serpent.jpg);
   background-size: 100%;
 }
 /* line 19, ../../app/styles/pages/_contact.sass */
@@ -6693,7 +6918,7 @@ th {
 /* line 4, ../../app/styles/pages/_awards.sass */
 .page-awards .media {
   clear: both;
-  background-image: url(http://cdn.harshaenterprises.co/images/opera.jpg);
+  background-image: url(https://harshaenterprises.co/assets/images/opera.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7033,14 +7258,63 @@ iframe {
 }
 }
 
+.images{
+    display: block;
+  }
+
+@media (max-width:600px)
+{
+  .images{
+    display: none !important;
+  }
+}
+
+
+
 
 @media screen and (max-width: 1024px){
    .page-index .opera-tables {
       display: block;
-      background: url(http://cdn.harshaenterprises.co/images/opera-tables.jpg);
+      background: url(https://harshaenterprises.co/assets/images/opera-tables-fssc.jpg);
       background-size: cover;
       margin-top: 320px;
       margin-top: 2rem;
-      height: 355px;
+      height: 375px;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+   .page-index .opera-tables1 {
+      display: block;
+      background: url(https://harshaenterprises.co/assets/images/greenroom-05.jpg);
+      background-size: cover;
+      margin-top: 320px;
+      margin-top: 2rem;
+      height: 375px;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+   .page-index .opera-tables2 {
+      display: block;
+      background: url(https://harshaenterprises.co/assets/images/chocolava.jpg);
+      background-size: cover;
+      margin-top: 320px;
+      margin-top: 2rem;
+      height: 435px;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+   .page-index .opera-tables3 {
+      display: block;
+      background: url(../images/yogurt.jpg);
+      background-size: cover;
+      margin-top: 320px;
+      margin-top: 2rem;
+      height: 435px;
   }
 }
